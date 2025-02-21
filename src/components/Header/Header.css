@@ -1,0 +1,15 @@
+.title {
+  margin-bottom: 13px;
+  font-family: Fira Code;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.subtitle {
+  margin-bottom: 50px;
+  font-family: "Fira Code";
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(127, 127, 127);
+}

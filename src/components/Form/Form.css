@@ -1,0 +1,97 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  outline: none;
+  background: rgb(36, 36, 36);
+}
+input:focus {
+  border: 1px solid rgb(75, 114, 194);
+  border-radius: 4px;
+  background: rgb(36, 36, 36);
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: inset 0 0 0 50px #242424;
+  -webkit-text-fill-color: #fff;
+}
+
+.input-text {
+  width: 774px;
+  height: 42px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-family: "Fira Code";
+  font-size: 16px;
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 4px;
+  background: rgb(36, 36, 36);
+  color: rgb(255, 255, 255);
+}
+
+.input-checkbox {
+  margin-bottom: 50px;
+  align-items: center;
+  display: flex;
+  gap: 16px;
+}
+
+.demoToggleCheckbox {
+  display: none;
+}
+
+.demoToggleCheckbox + label {
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  background-color: #ccc;
+  border-radius: 17px;
+  position: relative;
+  cursor: pointer;
+}
+
+.demoToggleCheckbox + label:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(36, 36, 36);
+  transition: transform 0.3s;
+}
+
+.demoToggleCheckbox:checked + label {
+  background-color: rgb(75, 114, 194);
+}
+
+.demoToggleCheckbox:checked + label:after {
+  transform: translateX(26px);
+}
+
+.checkbox-text {
+  font-family: "Fira Code";
+  font-size: 16px;
+  line-height: 21px;
+  color: rgb(127, 127, 127);
+}
+
+.line {
+  margin-bottom: 32px;
+}
+
+.login-prompt-text {
+  font-family: "Fira Code";
+  font-size: 16px;
+  line-height: 21px;
+  color: rgb(127, 127, 127);
+}
+
+.login-prompt-link {
+  padding-left: 10px;
+  text-decoration: none;
+  color: rgb(75, 114, 194);
+}

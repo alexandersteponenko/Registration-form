@@ -1,0 +1,13 @@
+body {
+  font-family: "Fira Code", serif;
+  background: rgb(8, 8, 11);
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 1920px;
+  height: 1080px;
+  padding: 149px 296px 107px 824px;
+  border-radius: 40px;
+  background: rgb(36, 36, 36);
+}

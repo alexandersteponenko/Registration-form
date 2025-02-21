@@ -1,0 +1,13 @@
+button {
+  width: 200px;
+  height: 48px;
+  margin-bottom: 50px;
+  font-family: "Fira Code";
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  background: rgb(75, 114, 194);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 1px solid rgb(75, 114, 194);
+}
